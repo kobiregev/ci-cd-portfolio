@@ -1,0 +1,12 @@
+{
+  "name": "ci-cd-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5"
+  }
+}
