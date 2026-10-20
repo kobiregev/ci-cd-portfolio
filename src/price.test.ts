@@ -9,3 +9,8 @@ test("takes 10% off", () => {
 test("never goes below zero", () => {
   assert.equal(applyDiscount(50, 150), 0);
 });
+
+
+test('rejects a negative discount', () => {
+  assert.throws(() => applyDiscount(50, -10), RangeError);
+});
