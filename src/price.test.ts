@@ -15,5 +15,5 @@ test("rejects a negative discount", () => {
 });
 
 test("works with a price from a form field", () => {
-  assert.equal(applyDiscount("50", 10), 45);
+  assert.equal(applyDiscount(Number("50"), 10), 45);
 });
