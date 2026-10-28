@@ -6,7 +6,8 @@
   "scripts": {
     "test": "node --test",
     "typecheck": "tsc",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "build": "tsc -p tsconfig.build.json"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
